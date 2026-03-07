@@ -1,0 +1,48 @@
+# React Native / Expo ignores
+node_modules/
+dist/
+build/
+.expo/
+.expo-shared/
+web-build/
+
+# Native projects (optional if using prebuild)
+android/
+ios/
+
+# Bundler / cache
+.bundle/
+*.bundle
+.cache/
+.metro-cache/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+logs/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# Expo tooling
+*.expo*
+
