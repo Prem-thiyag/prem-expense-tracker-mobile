@@ -1,0 +1,37 @@
+export const theme = {
+  colors: {
+    background: "#0B0D0B",
+    surface: "#141714",
+    surfaceRaised: "#1C201C",
+    surfaceSoft: "#242A24",
+    border: "#242A24",
+    textPrimary: "#F2F5F1",
+    textMuted: "#9AA39A",
+    textOnAccent: "#0B0D0B",
+    green: "#38D35C",
+    greenDeep: "#0E6B4E",
+    greenSoft: "#B7E6A8",
+    greenBright: "#77E26C",
+    lime: "#D6E59A",
+    yellow: "#E7E28F",
+    red: "#E25555",
+    redDeep: "#B93A3A",
+    whiteOverlay: "rgba(242, 245, 241, 0.08)",
+    blackOverlay: "rgba(11, 13, 11, 0.36)",
+  },
+  gradients: {
+    hero: ["#A7DEA6", "#D6E59A", "#E7E28F"] as const,
+    cardGlow: ["#2E6B45", "#1D3A2B", "#141714"] as const,
+  },
+  radii: {
+    xl: 34,
+    lg: 28,
+    md: 22,
+    sm: 18,
+    pill: 999,
+  },
+  spacing: {
+    screen: 22,
+    card: 22,
+  },
+} as const;

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "temp-expense-mobile",
-    "slug": "temp-expense-mobile",
+    "name": "Prem Expense Tracker",
+    "slug": "prem-expense-tracker-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
